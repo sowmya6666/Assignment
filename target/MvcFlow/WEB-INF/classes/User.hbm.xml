@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+	<!-- Created by the Middlegen Hibernate plugin 2.1 http://boss.bekk.no/boss/middlegen/ 
+		http://www.hibernate.org/ -->
+
+	<class
+		name="UserData.LoginSampleAssignment.model.User"
+		table="assignment.user">
+		<meta attribute="class-description" inherit="false">
+		</meta>
+
+		<id name="id" type="java.lang.Integer" column="Id">
+			<meta attribute="field-description">
+				@hibernate.id
+				generator-class="native"
+				type="java.lang.Integer"
+				column="Id"
+
+			</meta>
+			<generator class="native" />
+		</id>
+
+		<property name="username" type="java.lang.String" column="username">
+			<meta attribute="field-description">
+				@hibernate.property
+				column="content"
+				length="65535"
+			</meta>
+		</property>
+
+		<property name="password" type="java.lang.String"
+			column="password">
+			<meta attribute="field-description">
+				@hibernate.property
+				column="descriptionType"
+				length="3"
+			</meta>
+		</property>
+		
+	</class>
+</hibernate-mapping>

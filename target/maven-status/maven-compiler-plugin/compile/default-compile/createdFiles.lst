@@ -1,0 +1,7 @@
+UserData/LoginSampleAssignment/service/LoginService.class
+UserData/LoginSampleAssignment/form/LoginForm.class
+UserData/LoginSampleAssignment/DAO/LoginDAOImpl.class
+UserData/LoginSampleAssignment/DAO/LoginDAO.class
+UserData/LoginSampleAssignment/service/LoginServiceImpl.class
+UserData/LoginSampleAssignment/model/User.class
+UserData/LoginSampleAssignment/controller/UserController.class
